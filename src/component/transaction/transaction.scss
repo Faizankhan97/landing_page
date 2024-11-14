@@ -1,0 +1,52 @@
+.transaction {
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    margin-bottom: 20px;
+  }
+  .box {
+    background-color: var(--white-color);
+    border-radius: 25px;
+    padding: 25px;
+    table {
+      td {
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          color: var(--white-grey);
+        }
+        .text-red {
+          color: #fe5c73;
+        }
+        .text-green {
+          color: #16dbaa;
+        }
+      }
+      .list {
+        display: flex;
+        align-items: center;
+        img {
+          width: 55px;
+          height: 55px;
+          margin-right: 25px;
+        }
+        h5 {
+          font-size: 16px;
+          font-weight: 500;
+          margin-bottom: 7px;
+          line-height: 19.36px;
+          color: var(--black-grey);
+        }
+        span {
+          font-size: 15px;
+          font-weight: 400;
+          color: var(--white-grey);
+          margin-bottom: 0;
+          line-height: 18.15px;
+        }
+      }
+    }
+  }
+}

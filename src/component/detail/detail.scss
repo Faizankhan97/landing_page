@@ -1,0 +1,20 @@
+.details {
+  .box {
+    background-color: var(--white-color);
+    padding: 25px 36px;
+    border-radius: 25px;
+    h5 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      color: var(--white-grey);
+    }
+    h3 {
+      font-size: 25px;
+      font-weight: 600;
+      margin-top: 7px;
+      line-height: 30.26px;
+      color: var(--black-grey);
+    }
+  }
+}

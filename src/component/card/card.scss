@@ -1,0 +1,75 @@
+.cards {
+  h3 {
+    margin-bottom: 20px;
+  }
+  .box {
+    background: linear-gradient(107.38deg, #2d60ff 2.61%, #539bff 101.2%);
+    padding: 24px 0 0;
+    border-radius: 25px;
+    position: relative;
+    .chip {
+      position: absolute;
+      top: 25px;
+      right: 24px;
+      width: 34px;
+      height: 34px;
+    }
+    h5 {
+      font-size: 12px;
+      font-weight: 400;
+      padding-left: 26px;
+      line-height: 14.4px;
+      color: var(--white-color);
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 24px;
+      padding-left: 26px;
+      margin-bottom: 20px;
+      color: var(--white-color);
+    }
+    h6 {
+      font-size: 12px;
+      font-weight: 400;
+      padding-left: 26px;
+      line-height: 14.4px;
+      margin-bottom: 0;
+      color: var(--white-color);
+    }
+    span {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 18px;
+      padding-left: 26px;
+      margin-bottom: 0;
+      color: var(--white-color);
+    }
+    .box-blue {
+      margin-top: 20px;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      border-radius: 0 0 25px 25px;
+      padding: 22px 26px;
+      position: relative;
+      .visa {
+        position: absolute;
+        top: 20px;
+        right: 24px;
+        width: 44px;
+        height: 30px;
+      }
+      h4 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        line-height: 26.4px;
+        color: var(--white-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+#root {
+  --white-color: #fff;
+  --black-color: #000;
+  --darkgrey-color: #232233;
+  --darkpurple-color: #5956e9;
+  --lightpurple-color: #7572ff;
+  --lightgrey-color: #6c6c72;
+  --background-color: #e6eff5;
+  --grey-color: #b1b1b1;
+  --blue-color: #1814f3;
+  --purple-color: #343c6a;
+  --darkpurple-color: #333b69;
+  --white-grey: #718ebf;
+  --black-grey: #232323;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Thin.ttf");
+  font-weight: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 48.83px;
+}
+
+h2 {
+  font-size: 31.25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
