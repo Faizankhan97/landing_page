@@ -18,7 +18,7 @@ import Card from "../../component/card/Card";
 
 const Dashboard = () => {
   return (
-    <div className="main">
+    <div className="mains">
       <div className="left-wrap">
         <a href="javascript:void(0);" className="logo">
           <img src={Logo} alt="" />
